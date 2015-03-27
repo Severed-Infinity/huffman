@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E582E9181AB3A0C100B55346 /* huffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E582E9161AB3A0C100B55346 /* huffman.cpp */; };
 		E59418421AAF14FC00360655 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E59418411AAF14FC00360655 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E582E9161AB3A0C100B55346 /* huffman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = huffman.cpp; sourceTree = "<group>"; };
+		E582E9171AB3A0C100B55346 /* huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = huffman.h; sourceTree = "<group>"; tabWidth = 2; };
+		E59019871AAF3C6A00A0DFC7 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		E594183E1AAF14FC00360655 /* huffman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = huffman; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59418411AAF14FC00360655 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +61,10 @@
 		E59418401AAF14FC00360655 /* huffman */ = {
 			isa = PBXGroup;
 			children = (
+				E582E9161AB3A0C100B55346 /* huffman.cpp */,
+				E582E9171AB3A0C100B55346 /* huffman.h */,
 				E59418411AAF14FC00360655 /* main.cpp */,
+				E59019871AAF3C6A00A0DFC7 /* File */,
 			);
 			path = huffman;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59418421AAF14FC00360655 /* main.cpp in Sources */,
+				E582E9181AB3A0C100B55346 /* huffman.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +217,7 @@
 		E59418471AAF14FC00360655 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +241,7 @@
 				E59418471AAF14FC00360655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
